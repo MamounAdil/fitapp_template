@@ -1,0 +1,64 @@
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+    .container { width: 100%  }
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+    .container { width: 540px }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .container { width: 720px }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    .container { width: 960px }
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+    .container { width: 1140px }
+}
+
+
+/* Max Width 991.98px */
+@media (max-width: 991.98px) {
+    header { background: #0C0C0E }
+    header .my-button { display: none }
+
+    header .header-content { justify-content: flex-start; gap: 0; padding: 10px 0; }
+
+    i.hidden, i.hide { margin-left: auto; cursor: pointer }
+
+    i.hidden { display: block }
+
+    header .header-content .list { display: none }
+
+    header .header-content .list li { border-bottom: 1px solid var(--light) }
+
+    header .header-content .list a {
+        padding: 15px 0 15px 20px;
+        transition: .5s
+    }
+
+    header .header-content .list a:hover { padding-left: 30px }
+
+    header .header-content .list a::before { display: none }
+
+    .landing .landing-text .frame { display: none !important; }
+    
+    .landing .landing-text .container .text h1 { font-size: 25px }
+
+    .landing .landing-text .container .text p { font-size: 16px; margin: 25px 0 }
+
+    .landing .my-button { padding: 13px 25px }
+
+    .landing .custom-shape-divider-bottom-1690026188 svg { height: 100px }
+
+}
+
+@media (min-width: 992px) {
+}
