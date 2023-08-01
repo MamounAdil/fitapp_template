@@ -48,13 +48,13 @@
 
     header .header-content .list a::before { display: none }
 
-    .landing .landing-text .frame { display: none !important; }
-    
-    .landing .landing-text .container .text h1 { font-size: 25px }
+    .landing-text .frame { display: none !important; }
 
-    .landing .landing-text .container .text p { font-size: 16px; margin: 25px 0 }
+    .landing-text .container .text h1 { font-size: 25px }
 
-    .landing .my-button { padding: 13px 25px }
+    .landing-text .container .text p { font-size: 16px; margin: 25px 0 }
+
+    .landing-text .my-button { padding: 13px 25px }
 
     .landing .custom-shape-divider-bottom-1690026188 svg { height: 100px }
 

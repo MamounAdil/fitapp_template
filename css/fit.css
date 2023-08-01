@@ -6,7 +6,7 @@
 
 *, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; list-style: none; text-decoration: none }
 
-body { font-family: 'Heebo', 'Jost' ,sans-serif; height: 10000px; overflow-x: hidden }
+body { font-family: 'Heebo', 'Jost' ,sans-serif }
 
 .container, .container-fluid {
     width: 100%; padding-right:15px; padding-left: 15px;margin-right: auto; margin-left: auto }
@@ -88,32 +88,37 @@ header .header-content .list li  a:hover::before { opacity: 1 }
 
 .landing .custom-shape-divider-bottom-1690026188 {
     position: absolute; bottom: 0; left: 0; width: 100%;
-    overflow: hidden; line-height: 0; transform: rotate(180deg) }
+    overflow: hidden; line-height: 0; transform: rotate(180deg); height: 160px }
 
 .landing .custom-shape-divider-bottom-1690026188 svg {
-     position: relative;display: block; width: calc(100% + 1.3px); height: 170px }
+     position: relative;display: block; width: calc(100% + 1.3px); height: 160px }
 
 .landing .custom-shape-divider-bottom-1690026188 .shape-fill { fill: #FFF }
 
-.landing .landing-text { display: flex; align-items: center; height: 100% }
+.landing-text {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 100%;}
 
-.landing .landing-text .container {
-    display: flex; justify-content: space-between; align-items: center; gap: 40px }
+.landing-text .container {
+    display: flex; justify-content: space-between; align-items: center; gap: 40px; height: 100vh }
 
-.landing .landing-text .container .text { flex-basis: 700px; color: #FFF }
+.landing-text .container .text { flex-basis: 700px; color: #FFF }
 
-.landing .landing-text .container .text h1 {
+ .landing-text .container .text h1 {
     font-family: var(--sec-font); font-size: 40px; line-height: 1.5; margin: 0 }
 
-.landing .landing-text .container .text p { font-size: 18px; line-height: 1.7; letter-spacing: 1px; margin: 30px 0 }
+.landing-text .container .text p { font-size: 18px; line-height: 1.7; letter-spacing: 1px; margin: 30px 0 }
 
-.landing .landing-text .container .text .our-button { display: flex }
+.landing-text .container .text .our-button { display: flex }
 
-.landing .landing-text .container .text .our-button a:first-of-type { margin-right: 30px }
+.landing-text .container .text .our-button a:first-of-type { margin-right: 30px }
 
-.landing .landing-text .frame {  position: relative; margin-top: 130px }
+.landing-text .frame {  position: relative; margin-top: 60px }
 
-.landing .landing-text .container .my-frame {
+.landing-text .container .my-frame {
     background: center/ cover url(../img/landing/screenshot-frame.png) no-repeat;
     height: 480px;
     width: 240px;
@@ -124,7 +129,7 @@ header .header-content .list li  a:hover::before { opacity: 1 }
 
 .my-slider { width: 230px; position: relative; top: 18px; left: 17px }
 
-.my-slider .bx-wrapper { box-shadow: none; background: none; border: 0; text-align: center }
+.my-slider .bx-wrapper { box-shadow: none; background: none; border: 0; text-align: center; margin-bottom: 0 }
 
 .my-slider .item {
     height: 460px;
